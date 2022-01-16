@@ -4,7 +4,7 @@
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 5rem;
     font-family: monospace;
     text-align: center;
 }
@@ -20,15 +20,19 @@ img {
     width: 50%;
 }
 
-.choices {
-    color: white;
-    font-size: 30px;
-    font-family: monospace;
+.choices{
 text-align: center;
 }
 
+.choices a{
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    padding-right: 20px;
+}
+
 .paragraphs {
-    font-size: 20px;
+    font-size: 30px;
     font-family: fantasy;
     display: block;
     margin-left: auto;
@@ -41,11 +45,49 @@ text-align: center;
     font-family: monospace;
 }
 
+.sections article{
+    padding-left: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pastwork {
+    display: flex;
+}
+
 .contactcenter {
     color: white;
     text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 .footer {
     color: white;
     text-align: center;
+}
+.subheading {
+    width: 15%;
+    border-right: 2px solid white;
+    display: flex;
+}
+
+.subheading h2{
+    align-self: center;
+    display: flex;
+    font-size: 3rem;
+}
+.sectionheading h3 {
+   position: absolute;
+   top: 15px;
+   font-size: 2rem;
+}
+.sectionheading {
+    position: relative;
+    min-width: 35%;
+}
+.imagesize {
+    width: 95%;
+}
+#biggerimage {
+    min-width: 90%;
 }
